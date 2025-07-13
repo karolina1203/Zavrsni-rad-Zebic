@@ -1,3 +1,5 @@
+PLOT_drugi
+
 import matplotlib
 matplotlib.use('TkAgg')
 from rosbags.highlevel import AnyReader
@@ -5,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 
-bag_path = Path('/home/karolina-z/ros2_ws/src/rosbag2_2025_07_08-16_23_57')
+bag_path = Path('/home/karolina-z/ros2_ws/src/rosbag2_2025_07_08-16_20_55')
 
 try:
     with AnyReader([bag_path]) as reader:
