@@ -1,5 +1,3 @@
-PLOT_drugi
-
 import matplotlib
 matplotlib.use('TkAgg')
 from rosbags.highlevel import AnyReader
